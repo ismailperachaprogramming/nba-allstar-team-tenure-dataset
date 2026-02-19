@@ -51,24 +51,25 @@ peak_season_with_team
 
 **Columns**
 
-Column	Description
-player	Player full name
-team	Team full name
-first_all_star_season_with_team	First All-Star season during the stint
-last_season_with_team	Final season of stint (NULL if active)
-tenure_years_with_team	Total years in stint
-acquisition_type	Draft, Trade, Free Agency, etc.
-acquisition_year	Year player joined team
-peak_season_with_team	Season of deepest playoff run
-best_seed_with_team	Best regular season seed achieved
-best_playoff_result_with_team	Deepest playoff outcome
-championships_with_team	Number of championships during stint
-best_accolade_with_team	Highest individual accolade during stint
-total_all_star_count_with_team	Total All-Star selections during stint
-left_team_flag	Yes/No
-departure_season	Season player left
-departure_reason	Trade, Free Agency, Retired, etc.
-years_post_peak_to_exit	Years between peak season and departure
+| Column                            | Description                              |
+| --------------------------------- | ---------------------------------------- |
+| `player`                          | Player full name                         |
+| `team`                            | Team full name                           |
+| `first_all_star_season_with_team` | First All-Star season during the stint   |
+| `last_season_with_team`           | Final season of stint (NULL if active)   |
+| `tenure_years_with_team`          | Total years in stint                     |
+| `acquisition_type`                | Draft, Trade, Free Agency, etc.          |
+| `acquisition_year`                | Year player joined team                  |
+| `peak_season_with_team`           | Season of deepest playoff run            |
+| `best_seed_with_team`             | Best regular season seed achieved        |
+| `best_playoff_result_with_team`   | Deepest playoff outcome                  |
+| `championships_with_team`         | Number of championships during stint     |
+| `best_accolade_with_team`         | Highest individual accolade during stint |
+| `total_all_star_count_with_team`  | Total All-Star selections during stint   |
+| `left_team_flag`                  | Yes/No                                   |
+| `departure_season`                | Season player left                       |
+| `departure_reason`                | Trade, Free Agency, Retired, etc.        |
+| `years_post_peak_to_exit`         | Years between peak season and departure  |
 
 **Example Research Questions**
 
